@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 10px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: black;
+    color: aliceblue;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  header{
+      padding: 10%;
+      background-image: url('./images/logo.jpg');
+  }
+
+main .studyGoal, .admission, .courses{
+  padding: 30px;
+}
+
+.division:nth-child(even){
+  background-color: rgba(204, 210, 225, 0.69);
+}
